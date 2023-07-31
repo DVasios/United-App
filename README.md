@@ -2,7 +2,7 @@
 
 This repository contains a flutter project implemented in Flutter as part of the "Human Computer Interaction" course at the School of Electrical & Computer Engineering, National Technical University of Athens (NTUA).
 
-## About the app
+## About
 
 Title: United\
 Category: Education, Social\
