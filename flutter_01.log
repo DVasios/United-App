@@ -1,0 +1,67 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d chrome --devtools-server-address http://127.0.0.1:9100/ --target lib/main.dart
+
+## exception
+
+_CastError: Null check operator used on a null value
+
+```
+#0      BatchedExpressionEvaluator._evaluateBatch (package:dwds/src/services/batched_expression_evaluator.dart:125:39)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.7.0, on Ubuntu 22.04.1 LTS 5.15.0-58-generic, locale en_US.UTF-8)
+    • Flutter version 3.7.0 on channel stable at /home/dpvasios/snap/flutter/common/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision b06b8b2710 (2 weeks ago), 2023-01-23 16:55:55 -0800
+    • Engine revision b24591ed32
+    • Dart version 2.19.0
+    • DevTools version 2.20.1
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+    • Android SDK at /home/dpvasios/Android/Sdk
+    • Platform android-33, build-tools 33.0.0
+    • Java binary at: /snap/android-studio/125/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✓] Linux toolchain - develop for Linux desktop
+    • clang version 10.0.0-4ubuntu1
+    • cmake version 3.16.3
+    • ninja version 1.10.0
+    • pkg-config version 0.29.1
+
+[✓] Android Studio (version 2021.3)
+    • Android Studio at /snap/android-studio/125/android-studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+
+[✓] VS Code (version 1.75.0)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.58.0
+
+[✓] VS Code
+    • VS Code at /snap/code/current
+    • Flutter extension version 3.58.0
+
+[✓] Connected device (1 available)
+    • Chrome (web) • chrome • web-javascript • Google Chrome 110.0.5481.77
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+• No issues found!
+```
