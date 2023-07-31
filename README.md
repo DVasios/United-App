@@ -22,18 +22,18 @@ UNI-TED is the 1st application that aims to provide significant tools to student
 
 ### Registration
 <p>
-    <img src="assets/images/page-views/registration/initial.png" width="300" height="600"/>
-    <img src="assets/images/page-views/registration/signin.png" width="300" height="600"/>
-    <img src="assets/images/page-views/registration/signup.png" width="300" height="600"/>
-    <img src="assets/images/page-views/registration/details.png" width="300" height="600"/>
+    <img src="assets/images/page-views/registration/initial.png" width="200" height="400"/>
+    <img src="assets/images/page-views/registration/signin.png" width="200" height="400"/>
+    <img src="assets/images/page-views/registration/signup.png" width="200" height="400"/>
+    <img src="assets/images/page-views/registration/details.png" width="200" height="400"/>
 </p>
 
 ### Application
 <div>
-    <img src="assets/images/page-views/app/home.png" width="300" height="600"/>
-    <img src="assets/images/page-views/app/discover.png" width="300" height="600"/>
-    <img src="assets/images/page-views/app/leaderboard.png" width="300" height="600"/>
-    <img src="assets/images/page-views/app/profile.png" width="300" height="600"/>
+    <img src="assets/images/page-views/app/home.png" width="200" height="400"/>
+    <img src="assets/images/page-views/app/discover.png" width="200" height="400"/>
+    <img src="assets/images/page-views/app/leaderboard.png" width="200" height="400"/>
+    <img src="assets/images/page-views/app/profile.png" width="200" height="400"/>
 </div>
 
 ## Technologies Used
@@ -43,7 +43,7 @@ UNI-TED is the 1st application that aims to provide significant tools to student
 
 ## Installation
 
-1. Clone the repository: git@github.com:DVasios/Algorithmic-Tasks.git
+1. Clone the repository: git@github.com:DVasios/United-App.git 
 2. Navigate to the app directory: cd United-App
 3. Ensure you have Flutter installed on your system. If not, refer to the Flutter installation guide.
 4. Connect your device/emulator, run: flutter devices to check the available devices.
